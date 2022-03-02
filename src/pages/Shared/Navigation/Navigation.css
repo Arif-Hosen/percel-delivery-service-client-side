@@ -1,0 +1,12 @@
+.navlink-style li:hover{
+    /* background-color: rgba(105, 105, 105, 0.329); */
+    border-radius: px;
+    font-weight: 700;
+    border-bottom: 2px solid #ed4c21;
+}
+
+.navlink-style li:active{
+    background-color:lightgray;
+}
+
+

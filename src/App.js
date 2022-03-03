@@ -7,6 +7,8 @@ import Login from './pages/Login/Login/Login';
 import About from './pages/About/About';
 import AuthProvider from './Context/authProvider';
 import PrivateRoute from './pages/Login/PrivateRoute/PrivateRoute';
+import Booking from './pages/Booking/Booking';
+import MyPercel from './pages/MyPercel/MyPercel';
 
 function App() {
   return (
@@ -26,6 +28,15 @@ function App() {
             <PrivateRoute path='/about'>
               <About></About>
             </PrivateRoute>
+            <PrivateRoute path='/services/:id'>
+              <Booking></Booking>
+            </PrivateRoute>
+            <PrivateRoute path='/myparcel'>
+              <MyPercel></MyPercel>
+            </PrivateRoute>
+            <Route path='*'>
+              <Login></Login>
+            </Route>
           </Switch>
         </Router>
       </AuthProvider>

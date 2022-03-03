@@ -1,4 +1,6 @@
 import React from 'react';
+import { useHistory } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import useFirebase from '../../../Hooks/useFirebase/useFirebase';
 import Footer from '../../Shared/Footer/Footer';
 import Navigation from '../../Shared/Navigation/Navigation';
@@ -6,12 +8,15 @@ import Navigation from '../../Shared/Navigation/Navigation';
 const Login = () => {
 
     const { signInWithGoogle, setUser } = useFirebase();
+    const location = useLocation();
+    const history = useHistory();
 
     const googleHandler = e => {
         e.preventDefault();
         signInWithGoogle()
             .then(res => {
                 setUser(res.user)
+                history.push(location?.state?.from)
             })
     }
 

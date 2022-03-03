@@ -5,6 +5,7 @@ import Navigation from '../../Shared/Navigation/Navigation';
 import Banner from '../Banner/Banner';
 import ShortAbout from '../ShortAbout/ShortAbout';
 import Tracking from '../Tracking/Tracking';
+import Services from '../Services/Services';
 import WhyChoose from '../WhyChoose/WhyChoose';
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
             <Navigation></Navigation>
             <Banner></Banner>
             <Tracking></Tracking>
+            <Services></Services>
             <ShortAbout></ShortAbout>
             <WhyChoose></WhyChoose>
             <Footer></Footer>

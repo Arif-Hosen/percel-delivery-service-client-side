@@ -24,7 +24,7 @@ const Navigation = () => {
                                 <Link className="nav-link active" aria-current="page" to='/about'>About Us</Link>
                             </li>
                             <li className="nav-item ms-3">
-                                <Link className="nav-link active" aria-current="page" to='/mypercel'>My percel</Link>
+                                <Link className="nav-link active" aria-current="page" to='/myparcel'>My Parcel</Link>
                             </li>
                         </ul>
                         <ul className='navbar-nav '>
@@ -32,7 +32,7 @@ const Navigation = () => {
                                 <>
 
 
-                                    <li className='nav-item mt-1 text-warning bg-dark rounded border ms-2 p-1'><span>{user.displayName}</span></li>
+                                    <li className='nav-item mt-1 text-warning  rounded border-dark ms-2 p-1'><span>{user.displayName}</span></li>
                                     <li className="nav-item">
 
                                         <Link

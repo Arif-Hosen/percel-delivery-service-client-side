@@ -7,9 +7,9 @@ const Banner = () => {
         <div className='banner py-5'>
             <div className='row w-100 '>
                 <div className='col col-lg-7 col-md-12 col-sm-12 text-light  ps-5 my-auto'>
-                    <h1 className='fw-bold fs-1'><span style={{ color: '#ed4c21' }}>Percel</span> Delivery Service</h1>
+                    <h1 className='fw-bold fs-1'><span style={{ color: '#ed4c21' }}>Parcel</span> Delivery Service</h1>
 
-                    <p className='w-75 '>We Provides best Percel Delivery Service in the world. We've earned a strong reputation among our customers for efficient parcel delivery.All to ensure that our customers have the most choice when sending a parcel.</p>
+                    <p className='w-75 '>We Provides best Parcel Delivery Service in the world. We've earned a strong reputation among our customers for efficient parcel delivery.All to ensure that our customers have the most choice when sending a parcel.</p>
                     <button className='btn btn-warning'>Learn More..</button>
 
                 </div>
